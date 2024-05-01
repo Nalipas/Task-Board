@@ -1,6 +1,14 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-image: url(https://images.pexels.com/photos/2527248/pexels-photo-2527248.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+header {
+  background-color:navajowhite;
 }
 
 .swim-lanes {
