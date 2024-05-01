@@ -53,8 +53,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -84,10 +82,6 @@ Here you can find the source code used to deploy a simple Task Board web applica
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 This website was built and tested using Chromium based browsers <a href="https://www.opera.com/gx">Opera GX</a> and <a href="(https://www.google.com/chrome/">Google Chrome</a> on a <a href="https://www.microsoft.com/en-us/software-download/windows10%20">Windows 10</a> machine, but should be viewable on any HTML supported browser.
@@ -108,45 +102,30 @@ You can find the published website hosted at
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+[![Task Board Screenshot][product-gif]](https://nalipas.github.io/Task-Board/)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+When visiting the application hosted at <a href="https://nalipas.github.io/Task-Board/">https://nalipas.github.io/Task-Board/</a> you will be presented with a blank Kanban board. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Click on the "Add Task" button and a modal will appear, prompting you to enter data for a new task to be added to the board.
+```
+* Enter a name, select a date using the date picker, and enter a description for your task.
+* When you are satisfied, click the "Add Task" button in the modal. 
+  * To cancel, click the 'x' on  the top right of the modal.
+  * If any of these fields are blank, the application will return an error and no task will be added.
+```
+After you have added tasks, task cards will be listed in the "To Do" lane.
+```
+* Task cards are draggable elements. Move them to the desired lane.
+  * If a task is due today, the card will highlight yellow.
+  * If a task is past due, the card will highlight red.
 
+* To delete a task, click the "Delete" button on the task card.
+```
+Task card data is stored in local storage, and the card and lane which it is in will persist through page refreshes. 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/Nalipas/Task-Board/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Deleted tasks do *NOT* persist, and are removed from storage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
@@ -171,9 +150,8 @@ Project Link: [https://github.com/Nalipas/Task-Board](https://github.com/Nalipas
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Special Thanks to [Chad Manuel](https://github.com/chdclar16) for motivation and support!
+* Thanks to [Mark Carlson](https://github.com/mark-carlson) for instructor support!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
