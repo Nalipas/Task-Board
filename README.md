@@ -66,7 +66,7 @@
 
 [![Task Board Screenshot][product-screenshot]](https://nalipas.github.io/Task-Board/)
 
-Here you can find the source code used to deploy a simple Task Board web application, based on acceptance critera set in the '02-Challenge' folder. 
+Here you can find the source code used to deploy a simple Task Board web application. The application allows a user to place tasks on a Kanban Board by filling out a form modal. Tasks cards are displayed in the 'To-do' lane and can be dragged over to other lanes as necessary. If a task is due today, it will show as 'yellow', and if it is past due, it will show as 'red'. Tasks will remain in their lanes through page refreshes, and can be deleted by the user by using the button on the card.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
